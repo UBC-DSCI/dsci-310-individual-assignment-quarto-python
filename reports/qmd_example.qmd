@@ -48,6 +48,8 @@ Suppose we were interested in looking in more closely at the province
 with the highest spread (in terms of standard deviation) of horse populations. 
 We present the standard deviations here:
 
+Table 1. Standard deviation of historical (1906-1972) horse populations for each Canadian province.
+
 ```{python}
 horses_sd_table = pd.read_csv("../results/horses_sd.csv")
 largest_sd = horses_sd_table['Province'].values[0]
