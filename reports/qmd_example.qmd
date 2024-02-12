@@ -2,7 +2,7 @@
 title: "DSCI 310: Historical Horse Population in Canada"
 author: "Tiffany Timbers & Jordan Bourak"
 format: html
-editor: visual
+editor: source
 ---
 
 ```{python}
@@ -24,10 +24,11 @@ Horse population data were sourced from the
 
 Methods
 
-The R programming language (R Core Team, 2019) 
-and the following R packages were used to perform the analysis: 
-knitr (Xie 2014), tidyverse (Wickham 2017), and Quarto (Allaire et al 2022). 
-*Note: this report is adapted from (Timbers 2020).*
+The Python programming language (Van Rossum and Drake 2009)
+and the following Python packages were used to perform the analysis: 
+pandas (McKinney 2010), altair (VanderPlas 2018), click (Team 2020), 
+as well as Quarto (Allaire et al. 2022). 
+*Note: this report is adapted from Timbers (2020).* 
 
 Results
 
@@ -60,7 +61,7 @@ Note that we define standard deviation (of a sample) as
 
 $$s = \sqrt{\frac{\sum_{i=1}^N (x_i - \overline{x})^2}{N-1} }$$
 
-Additionally, note that in Table 1 we consider the sample standard deviation of the number of horses during the same time span as Figure1.
+Additionally, note that in Table 1 we consider the sample standard deviation of the number of horses during the same time span as Figure 1.
 
 ![]("../results/horse_pops_plot_largest_sd.png")
 
