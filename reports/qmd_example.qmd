@@ -46,7 +46,7 @@ to further support this hypothesis.
 
 Suppose we were interested in looking in more closely at the province 
 with the highest spread (in terms of standard deviation) of horse populations. 
-We present the standard deviations here:
+We present the standard deviations in Table 1.
 
 Table 1. Standard deviation of historical (1906-1972) horse populations for each Canadian province.
 
