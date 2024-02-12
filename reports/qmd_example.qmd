@@ -58,7 +58,7 @@ Markdown(horses_sd_table.to_markdown(index = False))
 
 Note that we define standard deviation (of a sample) as
 
-$$s = sqrt( sum_{i = 1}^n(x_i - \bar{x}) / (n-1))$$
+$$s = \sqrt{\frac{\sum_{i=1}^N (x_i - \overline{x})^2}{N-1} }$$
 
 Additionally, note that in Table 1 we consider the sample standard deviation of the number of horses during the same time span as Figure1.
 
