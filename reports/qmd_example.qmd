@@ -32,7 +32,7 @@ as well as Quarto (Allaire et al. 2022).
 
 Results
 
-![]("../results/horse_pops_plot.png")
+![](../results/horse_pops_plot.png)
 
 Figure 1: Horse populations for all provinces in Canada from 1906 - 1972.
 
@@ -63,7 +63,7 @@ $$s = \sqrt{\frac{\sum_{i=1}^N (x_i - \overline{x})^2}{N-1} }$$
 
 Additionally, note that in Table 1 we consider the sample standard deviation of the number of horses during the same time span as Figure 1.
 
-![]("../results/horse_pops_plot_largest_sd.png")
+![](../results/horse_pops_plot_largest_sd.png)
 
 Figure 2: Horse populations for the province with the largest standard deviation
 
